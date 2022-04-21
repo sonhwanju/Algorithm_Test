@@ -17,6 +17,9 @@ namespace AlgorithmTest2
 
     public class Solution
     {
+        //금과 은 운반하기
+        //https://programmers.co.kr/learn/courses/30/lessons/86053?language=csharp
+
         //특정 시간 내에 구해낼 수 있는지를 봤어야함. 그래서 이분 탐색을 써서 했어야 하는듯
         //이분 탐색을 알고리즘 문제 풀때 안써봐서 못 생각했다
         //정확성 50이 뜬다.-> while문 조건에서 start < end가 아닌 start <= end로 하니 잘 됨.
