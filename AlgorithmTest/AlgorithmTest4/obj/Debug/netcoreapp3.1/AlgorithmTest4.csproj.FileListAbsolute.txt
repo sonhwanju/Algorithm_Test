@@ -1,0 +1,13 @@
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\bin\Debug\netcoreapp3.1\AlgorithmTest4.exe
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\bin\Debug\netcoreapp3.1\AlgorithmTest4.deps.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\bin\Debug\netcoreapp3.1\AlgorithmTest4.runtimeconfig.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\bin\Debug\netcoreapp3.1\AlgorithmTest4.runtimeconfig.dev.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\bin\Debug\netcoreapp3.1\AlgorithmTest4.dll
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\bin\Debug\netcoreapp3.1\AlgorithmTest4.pdb
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.csproj.AssemblyReference.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.AssemblyInfoInputs.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.AssemblyInfo.cs
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.csproj.CoreCompileInputs.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.dll
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.pdb
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest4\obj\Debug\netcoreapp3.1\AlgorithmTest4.genruntimeconfig.cache
