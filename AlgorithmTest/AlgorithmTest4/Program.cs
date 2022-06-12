@@ -39,13 +39,18 @@ namespace AlgorithmTest4
 
                 if (r.moveCount >= answer) break;
 
-                for (int j = 0; j < trapsLength; j++)
+                //for (int j = 0; j < trapsLength; j++)
+                //{
+                //    if (r.curRoom == traps[j])
+                //    {
+                //        r.roads = Swap(r.roads, r);
+                //        break;
+                //    }
+                //}
+
+                if(traps.Contains(r.curRoom))
                 {
-                    if (r.curRoom == traps[j])
-                    {
-                        r.roads = Swap(r.roads, r);
-                        break;
-                    }
+                    r.roads = Swap(r.roads, r);
                 }
 
                 for (int i = 0; i < roadsLength; i++)
@@ -59,6 +64,7 @@ namespace AlgorithmTest4
 
                         if (nextMoveCount >= answer) continue;
 
+                        //Room nextRoom = new Room(r.roads[i, 1], nextMoveCount, traps.Contains(r.roads[i,1]) ? Swap(r.roads,r) :r.roads);
                         Room nextRoom = new Room(r.roads[i, 1], nextMoveCount, r.roads);
                         roomQueue.Push(nextRoom);
                     }
