@@ -1,0 +1,13 @@
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\bin\Debug\netcoreapp3.1\AlgorithmTest6.exe
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\bin\Debug\netcoreapp3.1\AlgorithmTest6.deps.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\bin\Debug\netcoreapp3.1\AlgorithmTest6.runtimeconfig.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\bin\Debug\netcoreapp3.1\AlgorithmTest6.runtimeconfig.dev.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\bin\Debug\netcoreapp3.1\AlgorithmTest6.dll
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\bin\Debug\netcoreapp3.1\AlgorithmTest6.pdb
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.csproj.AssemblyReference.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.AssemblyInfoInputs.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.AssemblyInfo.cs
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.csproj.CoreCompileInputs.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.dll
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.pdb
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest6\obj\Debug\netcoreapp3.1\AlgorithmTest6.genruntimeconfig.cache

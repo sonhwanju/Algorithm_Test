@@ -10,3 +10,4 @@ F:\AlgorithmTest\AlgorithmTest\AlgorithmTest5\obj\Debug\netcoreapp3.1\AlgorithmT
 F:\AlgorithmTest\AlgorithmTest\AlgorithmTest5\obj\Debug\netcoreapp3.1\AlgorithmTest5.dll
 F:\AlgorithmTest\AlgorithmTest\AlgorithmTest5\obj\Debug\netcoreapp3.1\AlgorithmTest5.pdb
 F:\AlgorithmTest\AlgorithmTest\AlgorithmTest5\obj\Debug\netcoreapp3.1\AlgorithmTest5.genruntimeconfig.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest5\obj\Debug\netcoreapp3.1\AlgorithmTest5.csproj.AssemblyReference.cache
