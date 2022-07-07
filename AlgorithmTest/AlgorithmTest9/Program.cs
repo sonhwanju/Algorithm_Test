@@ -6,6 +6,8 @@ namespace AlgorithmTest9
 {
     class Program
     {
+        //프린터
+        //https://school.programmers.co.kr/learn/courses/30/lessons/42587
         static void Main(string[] args)
         {
             Solution s = new Solution();
