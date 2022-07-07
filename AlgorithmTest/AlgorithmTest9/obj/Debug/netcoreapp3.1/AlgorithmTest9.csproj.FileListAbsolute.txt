@@ -1,0 +1,12 @@
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\bin\Debug\netcoreapp3.1\AlgorithmTest9.exe
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\bin\Debug\netcoreapp3.1\AlgorithmTest9.deps.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\bin\Debug\netcoreapp3.1\AlgorithmTest9.runtimeconfig.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\bin\Debug\netcoreapp3.1\AlgorithmTest9.runtimeconfig.dev.json
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\bin\Debug\netcoreapp3.1\AlgorithmTest9.dll
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\bin\Debug\netcoreapp3.1\AlgorithmTest9.pdb
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\obj\Debug\netcoreapp3.1\AlgorithmTest9.AssemblyInfoInputs.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\obj\Debug\netcoreapp3.1\AlgorithmTest9.AssemblyInfo.cs
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\obj\Debug\netcoreapp3.1\AlgorithmTest9.csproj.CoreCompileInputs.cache
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\obj\Debug\netcoreapp3.1\AlgorithmTest9.dll
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\obj\Debug\netcoreapp3.1\AlgorithmTest9.pdb
+F:\AlgorithmTest\AlgorithmTest\AlgorithmTest9\obj\Debug\netcoreapp3.1\AlgorithmTest9.genruntimeconfig.cache
