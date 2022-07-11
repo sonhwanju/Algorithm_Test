@@ -4,85 +4,46 @@ namespace AlgorithmTest11
 {
     class Program
     {
+        //이진 변환 반복하기
+        //https://school.programmers.co.kr/learn/courses/30/lessons/70129
+        //테스트 케이스는 정상 작동 하나 제출 시 내부적인 오류가 발생했다면서 안됨
         static void Main(string[] args)
         {
             Solution s = new Solution();
 
-            Console.WriteLine(s.solution(new int[,] { { 1, 1, 1 },{ 1, 1, 1 },{ 1, 1, 1 } }, new int[] {1,0 }, new int[] {1,2 }));
+            foreach (int i in s.solution("110010101001"))
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 
     public class Solution
     {
-        private int[,] dir = { { 1, 0 }, { 0, 1 }, { -1, 0 }, { 0, -1 } };
-
-        public int solution(int[,] board, int[] aloc, int[] bloc)
+        public int[] solution(string s)
         {
-            int answer = int.MaxValue;
+            int[] answer = new int[] {0,0 };
+            int cnt = 0;
 
-            Dfs(board, aloc, bloc, 0,true, ref answer);
-
-            return answer.Equals(int.MaxValue) ? 0 : answer;
-        }
-
-        public void Dfs(int[,] board, int[] aloc, int[] bloc,int count,bool isATurn,ref int answer)
-        {
-            if(isATurn)
+            while (s.Length > 1)
             {
-                for (int i = 0; i < dir.GetLength(0); i++)
+                cnt = 0;
+
+                for (int i = 0; i < s.Length; i++)
                 {
-                    if (board[aloc[0], aloc[1]].Equals(0))
+                    if(s[i].ToString().Equals("0"))
                     {
-                        answer = Math.Min(answer, count);
-                        return;
+                        cnt++;
                     }
-
-                    int defaultRow = aloc[0];
-                    int defaultColumn = aloc[1];
-
-                    int nextRow = dir[i, 0] + defaultRow;
-                    int nextColumn = dir[i, 1] + defaultColumn;
-
-                    board[defaultRow, defaultColumn] = 0;
-                    aloc[0] = nextRow;
-                    aloc[1] = nextColumn;
-
-                    Dfs(board, aloc, bloc, count + 1, !isATurn, ref answer);
-
-                    aloc[0] = defaultRow;
-                    aloc[1] = defaultColumn;
-                    board[defaultRow, defaultColumn] = 1;
                 }
+
+                s = s.Replace("0", ""); 
+                s = Convert.ToString(s.Length, 2);
+
+                answer[0]++;
+                answer[1] += cnt;
             }
-            else
-            {
-                for (int i = 0; i < dir.GetLength(0); i++)
-                {
-                    int defaultRow = bloc[0];
-                    int defaultColumn = bloc[1];
-
-                    if (defaultRow < 0 || defaultColumn < 0 || defaultRow >= board.GetLength(0) || defaultColumn >= board.GetLength(1)) return;
-
-                    if (board[defaultRow, defaultColumn].Equals(0)) //이건 같은 자리에 있었을때의 처리
-                    {
-                        answer = Math.Min(answer, count);
-                        return;
-                    }
-
-                    int nextRow = dir[i, 0] + defaultRow;
-                    int nextColumn = dir[i, 1] + defaultColumn;
-
-                    board[defaultRow, defaultColumn] = 0;
-                    aloc[0] = nextRow;
-                    aloc[1] = nextColumn;
-
-                    Dfs(board, aloc, bloc, count + 1, !isATurn, ref answer);
-
-                    aloc[0] = defaultRow;
-                    aloc[1] = defaultColumn;
-                    board[defaultRow, defaultColumn] = 1;
-                }
-            }
+            return answer;
         }
     }
 }
